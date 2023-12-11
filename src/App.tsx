@@ -27,7 +27,7 @@ setupIonicReact();
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
-      <IonRouterOutlet placeholder={undefined}>
+      <IonRouterOutlet placeholder={"ionPage"}>
         <Route exact path="/home">
           <Home />
         </Route>
