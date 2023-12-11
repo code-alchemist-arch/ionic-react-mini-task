@@ -29,11 +29,8 @@ const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet placeholder={<div>Loading...</div>}>
-        <Route exact path="/home">
+        <Route path="/">
           <Home />
-        </Route>
-        <Route exact path="/">
-          <Redirect to="/home" />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
